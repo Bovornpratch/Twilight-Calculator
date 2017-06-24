@@ -39,3 +39,8 @@ while the morning twilight time would range in the opposite.
 	Sun altitude = -18 > Sun altitude = -12 = 'Astronomical Twilight'
 	
 The observing night usually starts after the astronomical twilight has ended (Alt > -18) and ends when we start the morning astronomical twilight (Alt > -18)
+
+More about twilights can be found at https://www.timeanddate.com/astronomy/different-types-twilight.html
+
+
+
