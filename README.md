@@ -27,16 +27,16 @@ In addition, the wrapper also gives out each twilight time. This includes the ci
 
 So, the evening twilight time would be the following
 
-	Sunset > Sun altitude = -6  = 'Civil Twilight'
-	Sun altitude = -6 > Sun altitude = -12  = 'nautical Twilight'
-	Sun altitude = -12 > Sun altitude = -18 = 'Astronomical Twilight'
+	Sunset to Sun altitude = -6  = 'Civil Twilight'
+	Sun altitude = -6 to Sun altitude = -12  = 'nautical Twilight'
+	Sun altitude = -12 to Sun altitude = -18 = 'Astronomical Twilight'
 	
 while the morning twilight time would range in the opposite.
 
 
-	Sun altitude = -6 > Sun rise = 'Civil Twilight'
-	Sun altitude = -12 > Sun altitude = -6  = 'nautical Twilight'
-	Sun altitude = -18 > Sun altitude = -12 = 'Astronomical Twilight'
+	Sun altitude = -6 to Sun rise = 'Civil Twilight'
+	Sun altitude = -12 to Sun altitude = -6  = 'nautical Twilight'
+	Sun altitude = -18 to Sun altitude = -12 = 'Astronomical Twilight'
 	
 The observing night usually starts after the astronomical twilight has ended (Alt > -18) and ends when we start the morning astronomical twilight (Alt > -18)
 
