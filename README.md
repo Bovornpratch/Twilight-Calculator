@@ -17,4 +17,6 @@ The scipt input includes
 	The observing longitude: Deg:Min:sec format
 	The observing elevation: int/float number
 	
+	Example input: python Twilight_cal.py 2017/06/23 7 18:47:25.08  98:58:54.11 0
+
 
