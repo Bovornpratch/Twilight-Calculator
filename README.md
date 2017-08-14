@@ -12,7 +12,7 @@ Dependencies include  pyephem numpy and datetime which can be obtain using
 The scipt input includes
 	
 	The observation date: YYYY/MM/DD or YYYY-MM-DD format
-	The observer timezone: -4 (EST) , +7 (Bangkok, Chiang mai) .....
+	The observer time: Observer time ib UTC , hh:mm:ss format
 	The observing latitude: Deg:Min:sec format
 	The observing longitude: Deg:Min:sec format
 	The observing elevation: int/float number
