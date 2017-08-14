@@ -4,22 +4,19 @@ import datetime
 import numpy
 
 
-Date,tz = str(sys.argv[1]) , int(sys.argv[2])  # Inputed date and time
+Date,time = str(sys.argv[1]) , str(sys.argv[2])  # Inputed date and time
 Obs_Lat, Obs_Long =  str(sys.argv[3]),str(sys.argv[4]) # Observatory latitude,longitude
 elevation = float(sys.argv[5])
 
 #Example/test coordinate
 '''
-Now = '2017/06/23 23:00:00'
+Now = '2017/06/23 5:00:00'
 Obs_Lat, Obs_Long = '18:47:25.08' , '98:58:54.11'  # Observatory latitude,longitude
 elevation = 0
 '''
 
 observer = ephem.Observer()
 observer.lat,observer.lon, observer.elevation = Obs_Lat, Obs_Long ,elevation
-base = 23
-time = str(base-tz)+':59:00'
-
 observer.date = Date+' '+time
 
 
